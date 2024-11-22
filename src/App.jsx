@@ -1,16 +1,11 @@
-import './App.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
+  import "./App.css"
+  import Home from "./pages/Home";
+  import AppRoutes from "./routes";
 
-function App() {
+  function App() {
+    return (
+      <AppRoutes />
+    )
+  }
 
-  return (
-    <>
-      <Header />
-      Content 
-      <Footer />
-    </>
-  )
-}
-
-export default App
+  export default App;

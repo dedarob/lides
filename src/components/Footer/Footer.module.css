@@ -19,5 +19,8 @@
 }
 
 .footer a:hover{
-    color: var(--contrary);
+    color: var(--primary);
+    border-radius: 8px;
+    background-color: white;
+    padding-inline: 1rem;
 }

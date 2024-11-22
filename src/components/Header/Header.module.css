@@ -16,11 +16,15 @@
 .header a{
     text-decoration: none;
     color: var(--soft-white);
-    padding-right: 1rem;
+    padding-inline: 1rem;
     font-size: 1.125rem;
     transition: 0.3s;
+    border-radius: 3px;
 }
 
 .header a:hover{
-    color: var(--contrary);
+    color: var(--primary);
+    background-color: bisque;
+    padding-inline: 3rem;
+    border-radius: 8px;
 }
