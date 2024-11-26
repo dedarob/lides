@@ -1,18 +1,23 @@
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
-import Container from "../../components/Container"
-
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import styles from "./Localizar.module.css";
+import Map from "../../components/MapContainer";
 function Localizar() {
-    
-    return (
-        <>
-        <Header/>
-        <Container>
-            <h2>Localizar</h2>
-        </Container>
-        <Footer/>
-        </>
-    )
+  return (
+    <>
+      <Header />
+
+      <section className={styles.map}>
+        <div className={styles.map_menu}>mapmenu</div>
+        <div className={styles.map_itself}>
+          mapitself
+          <Map />
+        </div>
+      </section>
+
+      <Footer />
+    </>
+  );
 }
 
-export default Localizar
+export default Localizar;
